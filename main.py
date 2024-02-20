@@ -1,8 +1,12 @@
 name = "mario"
-health = 19
+health = 16
+maxhealth = 20
 healthDisplay = ""
 print("hello i am " + name)
-for i in range(health):
-    healthDisplay += "|"
-print("Health: " + health + " " + healthDisplay)
+for i in range(maxhealth):
+    if i < health:
+        healthDisplay += "♥"
+    else:
+        healthDisplay += "♡"
+print("Health: " + str(health) + " " + healthDisplay)
 
