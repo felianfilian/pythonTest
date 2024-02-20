@@ -9,4 +9,5 @@ for i in range(maxhealth):
     else:
         healthDisplay += "♡"
 print("Health: " + str(health) + " / " + str(maxhealth) + " " + healthDisplay)
+input("press any key")
 
