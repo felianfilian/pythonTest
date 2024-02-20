@@ -8,5 +8,5 @@ for i in range(maxhealth):
         healthDisplay += "♥"
     else:
         healthDisplay += "♡"
-print("Health: " + str(health) + " " + healthDisplay)
+print("Health: " + str(health) + " / " + str(maxhealth) + " " + healthDisplay)
 
